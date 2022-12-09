@@ -1,0 +1,12 @@
+name: StatsShow
+version: '${version}'
+main: com.github.allybe.statsshow.main
+api-version: 1.19
+commands:
+    showstats:
+        description: Shows the stats of a player
+        usage: /showstats <item> <player>
+ #       aliases: [ss]
+#        permission: statsshow.use
+  #      permission-message: You don't have permission to use this command!
+        tab-completer: com.github.allybe.statsshow.tabCompletion
